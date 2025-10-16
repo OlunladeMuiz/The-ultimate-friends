@@ -14,8 +14,9 @@ html, body {
 header{
     position: fixed;
     width: 100%;
-    z-index: 20;
+    z-index: 30;
     text-transform: initial;
+    margin: 0;
 }
 
 /* this is the side-bar section */
@@ -104,6 +105,7 @@ nav{
   padding: 16px 32px;
   position: relative;
   z-index: 50;
+  margin: 0;
   box-shadow: 0 2px 8px rgba(92,58,30,0.08);
 }
 
@@ -731,3 +733,4 @@ nav{
   font-size: 0.95rem;
   color: #C9A98A;
 }
+
