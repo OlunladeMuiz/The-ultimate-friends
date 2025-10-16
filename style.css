@@ -12,7 +12,6 @@ html, body {
 }
 
 header{
-    position: fixed;
     width: 100%;
     z-index: 30;
     text-transform: initial;
@@ -733,4 +732,5 @@ nav{
   font-size: 0.95rem;
   color: #C9A98A;
 }
+
 
