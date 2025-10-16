@@ -223,8 +223,6 @@ nav{
   min-height: 100vh;
   background: linear-gradient(120deg, #FFF8F0 60%, #F5E9DA 100%);
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .hero-content {
@@ -260,7 +258,6 @@ nav{
 .hero-images {
   display: flex;
   gap: 24px;
-  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -280,6 +277,10 @@ nav{
   transform: scale(1.07) rotate(-2deg);
   border-color: #8D6748;
 }
+
+/* Move the last hero image to the first position in the row */
+
+
 /* this is the about section */
 .about-section {
   margin-left: 280px;
@@ -682,4 +683,51 @@ nav{
     text-align: center;
     margin: 0 auto;
   }
+}
+
+/* Footer styles */
+.site-footer {
+  background: #5C3A1E;
+  color: #FFF8F0;
+  padding: 32px 0 16px 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 40px;
+  box-shadow: 0 -4px 16px rgba(92, 58, 30, 0.10);
+}
+
+.footer-content h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  margin-bottom: 6px;
+  color: #C9A98A;
+}
+
+.footer-role {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  color: #FFF8F0;
+  font-weight: 500;
+}
+
+.footer-content i {
+  margin-right: 8px;
+  color: #C9A98A;
+}
+
+.footer-content a {
+  color: #FFF8F0;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-content a:hover {
+  color: #C9A98A;
+  text-decoration: underline;
+}
+
+.footer-copy {
+  margin-top: 18px;
+  font-size: 0.95rem;
+  color: #C9A98A;
 }
